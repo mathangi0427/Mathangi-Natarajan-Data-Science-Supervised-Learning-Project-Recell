@@ -29,3 +29,38 @@ release_year: Year when the device model was released
 days_used: Number of days the used/refurbished device has been used
 normalized_new_price: Normalized price of a new device of the same model in euros
 normalized_used_price: Normalized price of the used/refurbished device in euros
+
+
+**Actionable Insights**
+
+The genearted linear regression model is able to explain ~84% of the variation in the used device data and within 4.5% of the normalized used price of the devices on the test data, which is really good. Hence the model is good for prediction as well as inference purposes.
+
+The normalized used price increases by 0.0207 units for every unit increase of ram given all the other variables are held constant.
+
+If the selfie camera megapixels increases by one unit, then the normalized used price of the devices increases by 0.0138 units given all the other variables are held constant.
+
+If the weight of the used devices increases by one unit, then the normalized used price of the devices increases by 0.0017 units given all the other variables are held constant.
+
+For every unit increase in year since the device was released, the normalized used price decreases by 0.0292 units given all the other variables are held constant.
+
+If the normalized new price of the devices of the same model of the used device increases by one unit, then the noramlized used price of the devices increases by 0.4415 units given all the other variables are held constant.
+
+The Karbonn brand devices increases the normalized used price by 0.1156 units given all the other variables are held constant.
+
+The normalized used price for the devices of brands Samsung and Sony decreases by 0.0374 and 0.0670 units respectively considering all the other variables are constant.
+
+The normalized used price of the devices running on OS other than windows, Andriod and ios gets decreased by 0.1276 units for every unit increase in the os considering that all the other variables are held constant.
+
+If the used device is running on ios, then for every unit increase in the OS the normalized used price decreases by 0.09 units given all the other variables are held constant.
+
+The normalized used price increases by 0.05 units if the used device has 4g data avaialbility.
+
+**Business Recommendations**
+
+The ReCell can consider procuring more used devices with large ram capacity in their online portal inorder to yield profit as the normalized used price of the devices increases with increase in the ram capacity.
+
+Since the customers buying used devices has preferences on the resolution of the selfie camera and main camera, the ReCell can focus on selling used devices having more than 8mp selfie camera and more than 16mp main camera resolution to run the business in the successful path as well as to build customer satisfaction.
+
+The ReCell business team has to consider the factor of 4g data availability while procuring and selling the used devices as the normalized used price increases when 4g data is available in the devices.
+
+The ReCell needs to consider the age of the phone they are selling as the phones becomes older the normalized used price goes down. Hence the ReCell company can have more inventory of phones not more than 5 years old.
